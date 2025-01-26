@@ -1,0 +1,148 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f1f1f13a;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.burger-menu {
+    display: block;
+    cursor: pointer;
+    padding: 18px;
+    background-color: #ff6347;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+}
+
+.burger-menu span {
+    display: block;
+    height: 8px;
+    width: 28px;
+    background-color: rgba(255, 255, 255, 0.562);
+    margin: 8px 0;
+}
+
+.burger-menu:hover {
+    background-color: #f0a4009a;
+    transform: rotate(180deg);
+}
+
+
+.nav-menu {
+    display: none;
+    background-color: #ffebcd;
+    border-radius: 15px;
+    padding: 23px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.349);
+}
+
+.nav-menu.open {
+    display: block;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 18px 0;
+    text-align: center;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ff6347;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background-color: #ff6347;
+    color: white;
+    transform: scale(1.1);
+}
+
+
+#registerModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.5s ease;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 18px;
+    width: 420px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: bounceIn 1s ease;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    font-size: 35px;
+    cursor: pointer;
+    color: #ff6347;
+    transition: all 0.3s ease;
+}
+
+.close-btn:hover {
+    transform: rotate(90deg);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #ff6347;
+    width: 80%;
+    transition: all 0.3s ease;
+}
+
+form input:focus {
+    border-color: #f0a500;
+    outline: none;
+}
+
+
+.submit-btn {
+    padding: 12px 30px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #f0a500;
+    transform: scale(1.1);
+}
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>გემრიელი რეგისტრაცია როგორც პიცა</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="burger-menu" id="burgerMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav class="nav-menu" id="menu">
+        <ul>
+            <li><a href="#">🍔 მთავარი</a></li>
+            <li><a href="#">🥤 კონტაქტი</a></li>
+            <li><a href="#" id="registerButton">🍟 რეგისტრაცია მალე ქენი თორე შეგჭამ</a></li>
+        </ul>
+    </nav>
+
+    
+    <div id="registerModეl" class="model">
+        <div class="model-content">
+            <span class="close-btn" id="closeBtn">&times;</span>
+            <h2 class="model-title">🍕 დარეგისტრირდი და მერე თუგინდა ჭამე 🍕</h2>
+            <form action="#" method="post">
+                <label for="name">🍔 სახელი დაწერე ბიჭო თორე შეგჭამ:</label>
+                <input type="text" id="burgerName" name="burgerName" required placeholder="გამოიცადე შენი ყველაზე გემრიელი სახელი!">
+
+                <label for="email">🍩 ფოსტაც მოაყოლე თორე ეხაც შეგჭამ:</label>
+                <input type="email" id="email" name="email" required placeholder="შეიყვანე შენი ელ. ფოსტა თორე შეგჭამ">
+
+                <label for="password">🍕 პაროლი:</label>
+                <input type="password" id="password" name="password" required placeholder="შექმენი უსაფრთხო და გემრიელი პაროლი თორე შენ ძვალსა შევჭამ!">
+
+                <button type="submit" class="submit-btn">🍩 რეგისტრაცია გავლილია გადარჩი შეგჭმას! 🍩</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
